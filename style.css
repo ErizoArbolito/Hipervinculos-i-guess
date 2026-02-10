@@ -18,7 +18,7 @@ Cada sección indica un tipo de elemento o grupo de elementos, luego lista las p
   --color-bg: #69f7be;
   --altoBloque: 87vh;
   /* vh view width */
-  --imagen-max-width: 300px;
+  --imagen-max-width: 500px;
   --imagen-margin: 20px;
 }
 
@@ -79,8 +79,8 @@ body {
 /* Propiedades de la imagen */
 .ilustracion {
   max-width: 100%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
   max-height: var(--imagen-max-width);
 }
 
@@ -98,7 +98,7 @@ body {
 /* Button //Botón - Propiedades que corresponden al elemento que puedes agregar al HTML. Para eso, ¡mira el documento pasos.md! */
 button,
 input {
-  font-family: inherit;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 100%;
   background: #ffffff;
   border: 1px solid #000000;
